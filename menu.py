@@ -1,20 +1,24 @@
-import requests,os,sys, time
-from random import choice, randint, shuffle
-from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
-from os.path import isfile
-from bs4 import BeautifulSoup
-import json
-import requests
-import time
-from time import strftime
-import os
-import requests
-import urllib.parse
-from time import strftime
-import os
-from datetime import datetime
-from time import sleep, strftime
-import datetime
+import os,sys,time,re,random,base64
+try:
+    from random import choice, randint, shuffle
+    from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
+    from os.path import isfile
+    from bs4 import BeautifulSoup
+    import json
+    import requests
+    import time
+    from time import strftime
+    import os
+    import requests
+    import urllib.parse
+    from time import strftime
+    import os
+    from datetime import datetime
+    from time import sleep, strftime
+    import datetime
+except:
+    os.system('pip install requests && pip install pystyle && pip install bs4')
+
 #Color
 trang = "\033[1;37m"
 xanh_la = "\033[1;32m"
